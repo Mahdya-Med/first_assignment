@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+    background-color: red;
+}
+
+.header{
+    background-color: blue;
+    height: 50px;
+    text-align: center;
+}
+.header p{
+    font-size: 30px;  
+    color: white;
+}
+
+.img1 img{
+    display: block;
+    height: 350px;
+    width: 100%;
+}
+.text{
+    text-align: center;
+    color: blue;
+    font-size: 50px;  
+}
+.threeImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.threeImages img{
+    margin: 50px;
+    gap: 10px;
+    
+    
+}
+.threeImages .TwoImage{
+    width: 350px;
+    margin: 50px;
+    gap: 10px;
+}
+
+footer{
+    background-color: blue;
+    height: 50px;
+    text-align: center;
+}
+footer p{
+    font-size: 30px;  
+    color: white;
+}
